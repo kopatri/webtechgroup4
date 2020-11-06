@@ -12,13 +12,104 @@
     <!--Individual styling-->
     <link rel="stylesheet" href="css/standard.css">
 
+    <!--Caroussel CSS -->
+    <link rel="stylesheet" href="css/caroussel.css">
+
     <link rel="icon" href=" " />
     <title>Home</title>
 </head>
 
 <body>
 
-    <h1>Hi guys, these is our website!</h1>
+    <!--Altered code from: https://startbootstrap.com/snippets/half-slider, accessed 06.11.2020 -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sustainable Web for Developers</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="cloud.html">Cloud Computing </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="payment.html">Payment Processing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="performance.html">Performance Optimization & User Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="seo.html">Search Engine Optimization</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active"
+                    style="background-image: url('images/cloud_carousel-min.jpg')"> <!--https://www.pexels.com/de-de/foto/bandbreite-computer-daten-datenbank-1148820/,accessed 06.11.2020-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Cloud Computing</h3>
+                        <p class="lead">This is a description for the first slide.</p>
+                    </div>
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: url('images/payment_carousel-min.jpg')"> <!--https://www.pexels.com/de-de/foto/macbook-computer-tastatur-bankwesen-34577/,accessed 06.11.2020-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Payment Processing</h3>
+                        <p class="lead">This is a description for the second slide.</p>
+                    </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: url('images/performance_carousel-min.jpg')"> <!--https://www.pexels.com/de-de/foto/macbook-computer-tastatur-bankwesen-34577/,accessed 06.11.2020-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Performance Optimization & User Experience</h3>
+                        <p class="lead">This is a description for the third slide.</p>
+                    </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: url('images/seo_carousel-min.jpg')"> <!--https://www.pexels.com/de-de/foto/smartphone-schreibtisch-laptop-notizbuch-67112/,accessed 06.11.2020-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Search Engine Optimization</h3>
+                        <p class="lead">This is a description for the fourth slide.</p>
+                    </div>Performance Optimization 
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5">
+        <div class="container">
+            <h1 class="font-weight-light">Here we can give a short introduction and conclusion.</h1>
+            <p class="lead">Here we can write the introduction and the conclusion.</p>
+        </div>
+    </section>
+    <!--Altered code from: https://startbootstrap.com/snippets/half-slider, accessed 06.11.2020 -->
 
 
 
