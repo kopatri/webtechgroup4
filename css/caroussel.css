@@ -7,3 +7,9 @@
     -o-background-size: cover;
     background-size: cover;
   }
+
+  .carousel-caption {
+    /*color: #fff;*/
+    text-align: center;
+    text-shadow: 0 0 3px whitesmoke, 0 0 5px black;
+}

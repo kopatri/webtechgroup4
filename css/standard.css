@@ -8,3 +8,12 @@
 	width: 65%;
 	margin-left: 20%;
 }
+
+/*More contrast between text and background (Wave complained */
+a {
+	color: darkblue;
+  }
+
+a:hover{
+color: brown;
+}
