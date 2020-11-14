@@ -11,5 +11,9 @@
   .carousel-caption {
     color: #fff;
     text-align: center;
-    /*text-shadow: 0 0 3px whitesmoke, 0 0 5px black;*/
+}
+
+/*Sets proper contrast between font and carousel images (Wave complained) */
+.contrast{
+  background-color:#343a40;
 }
